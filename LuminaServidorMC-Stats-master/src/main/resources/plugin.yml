@@ -1,0 +1,33 @@
+name: EstadisticasServer
+version: 1.0
+main: com.tuservidor.Main
+api-version: 1.20
+
+commands:
+  stats:
+    description: Ver estadisticas del jugador
+    usage: /stats
+  team:
+    description: Comandos de equipo
+    usage: /team <create|delete|add|remove>
+  top:
+    description: Ver rankings
+    usage: /top <players|teams>
+  winner:
+    description: Ver equipo ganador actual
+    usage: /winner
+  ip:
+    description: Ver ip de los jugadores
+    usage: /ip
+  puntos:
+    description: Add/Remove points from players
+    usage: /puntos
+  change:
+    description: Cambia la IP de un jugador existente
+    usage: /change <nombre_jugador> <ip>
+    permission: tuservidor.ip
+  add:
+    description: Añade un nuevo jugador con su IP
+    usage: /add <nombre_jugador> <ip>
+    permission: tuservidor.ip
+

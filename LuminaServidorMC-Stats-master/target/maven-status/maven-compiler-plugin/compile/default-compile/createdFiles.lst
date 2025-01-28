@@ -1,0 +1,11 @@
+com\tuservidor\database\Database$1.class
+com\tuservidor\database\Database.class
+com\tuservidor\commands\IpCommand.class
+com\tuservidor\stats\ScoreType.class
+com\tuservidor\commands\WinnerCommand.class
+com\tuservidor\commands\TopCommand.class
+com\tuservidor\commands\TeamCommand.class
+com\tuservidor\listeners\Stats.class
+com\tuservidor\commands\PuntosCommand.class
+com\tuservidor\commands\CambiarCommand.class
+com\tuservidor\Main.class
